@@ -1,0 +1,55 @@
+.services:hover{
+    cursor: pointer;
+transition: 500ms !important;
+    transform: scale(1.05) !important;
+   
+}
+.services{
+    display: flex;
+
+    justify-content: center;
+    align-items: center ;
+}
+
+.serviceImage{
+    position: relative;
+}
+
+.serviceName{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0 , 0, 0, .6);
+
+    opacity: 0;
+    transition: 500ms;
+
+}
+.serviceName:hover{
+    opacity: 1;
+    color: white;
+    transition: 500ms;
+
+}
+@media screen and (max-width:485px) {
+    /* .cars{
+        height: 25% !important;
+        border: 2px solid red;
+        
+    } */
+}
+
+.full-width-carousel {
+    width: 100vw; /* 100% of the viewport width */
+    overflow: hidden; /* Hide horizontal overflow */
+  }
+  
+  .full-width-slide {
+    width: 100vw; /* 100% of the viewport width */
+    height: auto; /* Maintain aspect ratio */
+  }

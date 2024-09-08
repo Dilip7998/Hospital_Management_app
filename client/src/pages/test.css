@@ -1,0 +1,10 @@
+.full-width-carousel {
+    width: 100vw; /* 100% of the viewport width */
+    overflow: hidden; /* Hide horizontal overflow */
+  }
+  
+  .full-width-slide {
+    width: 50vw; /* 100% of the viewport width */
+    height: 40vh; /* Maintain aspect ratio */
+    margin: auto;
+  }
