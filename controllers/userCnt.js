@@ -21,7 +21,7 @@ const sendResetPasswordLink = async (name, email, token) => {
       // port: 587,
       auth: {
         user: "dilipkumar55049@gmail.com",
-        pass: "pvmk mpfw nvln slvl",
+        pass: "heea vhpg jcaq bkxr",
       },
     });
 
@@ -33,7 +33,7 @@ const sendResetPasswordLink = async (name, email, token) => {
       html:
         "<p>Hii " +
         name +
-        ', Click here to <a href="https://hospital-app-nbpy.onrender.com/reset-password/' +
+        ', Click here to <a href="https://hospital-app-1.onrender.com/reset-password/' +
         token +
         '"> reset your password</a>',
     };
@@ -61,7 +61,7 @@ const sendAuthLink = async (name, email, token) => {
       // port: 587,
       auth: {
         user: "dilipkumar55049@gmail.com",
-        pass: "pvmk mpfw nvln slvl",
+        pass: "heea vhpg jcaq bkxr",
       },
     });
 
@@ -73,7 +73,7 @@ const sendAuthLink = async (name, email, token) => {
       html:
         "<p>Hii " +
         name +
-        ', Click here to <a href="https://hospital-app-nbpy.onrender.com/verification/' +
+        ', Click here to <a href="https://hospital-app-1.onrender.com/verification/' +
         token +
         '"> verify your account</a>',
     };
@@ -241,7 +241,7 @@ const sendMailtoAdmin = async (name, email) => {
       // port: 587,
       auth: {
         user: "dilipkumar55049@gmail.com",
-        pass: "pvmk mpfw nvln slvl",
+        pass: "heea vhpg jcaq bkxr",
       },
     });
 
@@ -253,7 +253,7 @@ const sendMailtoAdmin = async (name, email) => {
       html:
         "<p>Hii " +
         name +
-        ', Click here to <a href="https://hospital-app-nbpy.onrender.com/admin/Doctors"> see the details </a>',
+        ', Click here to <a href="https://hospital-app-1.onrender.com/admin/Doctors"> see the details </a>',
     };
     transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
@@ -403,7 +403,7 @@ const sendMailtoDoctor = async (name, email) => {
       // port: 587,
       auth: {
         user: "dilipkumar55049@gmail.com",
-        pass: "pvmk mpfw nvln slvl",
+        pass: "heea vhpg jcaq bkxr",
       },
     });
 
@@ -415,7 +415,7 @@ const sendMailtoDoctor = async (name, email) => {
       html:
         "<p>Hii Sir you have an another appointment request  from user " +
         name +
-        ',  <a href="https://hospital-app-nbpy.onrender.com/doctor-appointments"> Click here to see the details </a>',
+        ',  <a href="https://hospital-app-1.onrender.com/doctor-appointments"> Click here to see the details </a>',
     };
     transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
@@ -691,7 +691,7 @@ const sendMailtotest = async (name, email, file, type, status) => {
       // port: 587,
       auth: {
         user: "dilipkumar55049@gmail.com",
-        pass: "pvmk mpfw nvln slvl",
+        pass: "heea vhpg jcaq bkxr",
       },
     });
 
