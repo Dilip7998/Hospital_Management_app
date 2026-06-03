@@ -18,11 +18,17 @@ const sendResetPasswordLink = async (name, email, token) => {
   try {
     const transporter = nodemailer.createTransport({
       service: "gmail",
-      // port: 587,
+      port: 587,
       auth: {
         user: "dilipkumar55049@gmail.com",
         pass: "heea vhpg jcaq bkxr",
       },
+        tls: {
+        rejectUnauthorized: false,
+      },
+      connectionTimeout: 30000,
+      greetingTimeout: 30000,
+      socketTimeout: 30000,
     });
 
     const mailOptions = {
@@ -58,11 +64,17 @@ const sendAuthLink = async (name, email, token) => {
   try {
     const transporter = nodemailer.createTransport({
       service: "gmail",
-      // port: 587,
+      port: 587,
       auth: {
         user: "dilipkumar55049@gmail.com",
         pass: "heea vhpg jcaq bkxr",
       },
+        tls: {
+    rejectUnauthorized: false,
+  },
+  connectionTimeout: 30000,
+  greetingTimeout: 30000,
+  socketTimeout: 30000,
     });
 
     const mailOptions = {
@@ -238,11 +250,17 @@ const sendMailtoAdmin = async (name, email) => {
   try {
     const transporter = nodemailer.createTransport({
       service: "gmail",
-      // port: 587,
+      port: 587,
       auth: {
         user: "dilipkumar55049@gmail.com",
         pass: "heea vhpg jcaq bkxr",
       },
+        tls: {
+    rejectUnauthorized: false,
+  },
+  connectionTimeout: 30000,
+  greetingTimeout: 30000,
+  socketTimeout: 30000,
     });
 
     const mailOptions = {
@@ -400,11 +418,17 @@ const sendMailtoDoctor = async (name, email) => {
   try {
     const transporter = nodemailer.createTransport({
       service: "gmail",
-      // port: 587,
+      port: 587,
       auth: {
         user: "dilipkumar55049@gmail.com",
         pass: "heea vhpg jcaq bkxr",
       },
+        tls: {
+    rejectUnauthorized: false,
+  },
+  connectionTimeout: 30000,
+  greetingTimeout: 30000,
+  socketTimeout: 30000,
     });
 
     const mailOptions = {
@@ -688,11 +712,17 @@ const sendMailtotest = async (name, email, file, type, status) => {
   try {
     const transporter = nodemailer.createTransport({
       service: "gmail",
-      // port: 587,
+      port: 587,
       auth: {
         user: "dilipkumar55049@gmail.com",
         pass: "heea vhpg jcaq bkxr",
       },
+        tls: {
+    rejectUnauthorized: false,
+  },
+  connectionTimeout: 30000,
+  greetingTimeout: 30000,
+  socketTimeout: 30000,
     });
 
     const mailOptions = {
